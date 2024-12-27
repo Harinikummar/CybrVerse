@@ -29,5 +29,5 @@ The platform is built using the **MERN Stack**:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cybersecurity-e-learning-platform.git
-   cd cybersecurity-e-learning-platform
+   git clone https://github.com/your-username/CybrVerse.git
+   cd CybrVerse
