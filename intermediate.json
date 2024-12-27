@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "intermediate",
+    "question": "What is the primary purpose of network segmentation?",
+    "answer": "To limit access within a network to reduce risks",
+    "options": ["To speed up network performance", "To limit access within a network to reduce risks", "To enhance wireless connectivity", "To allow more devices to connect to the network"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "What is a 'zero-day vulnerability'?",
+    "answer": "A security flaw unknown to the vendor and not yet patched",
+    "options": ["A vulnerability with a 24-hour risk period", "A security flaw known but not yet exploited", "A security flaw unknown to the vendor and not yet patched", "A vulnerability that requires immediate patching"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "What type of malware disguises itself as legitimate software?",
+    "answer": "Trojan",
+    "options": ["Worm", "Virus", "Trojan", "Spyware"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "What does a 'man-in-the-middle' attack involve?",
+    "answer": "Intercepting communication between two parties to steal data",
+    "options": ["Launching malware on a server", "Gaining physical access to a computer", "Intercepting communication between two parties to steal data", "Blocking access to network resources"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "Which protocol is commonly used for secure remote login?",
+    "answer": "SSH (Secure Shell)",
+    "options": ["FTP (File Transfer Protocol)", "SSH (Secure Shell)", "HTTP (Hypertext Transfer Protocol)", "SMTP (Simple Mail Transfer Protocol)"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "What is the purpose of a honeypot in cybersecurity?",
+    "answer": "To attract and trap attackers to study their behavior",
+    "options": ["To protect sensitive files", "To speed up network connections", "To attract and trap attackers to study their behavior", "To provide additional network bandwidth"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "What is 'brute force' in the context of cybersecurity?",
+    "answer": "An attack that tries all possible passwords to gain access",
+    "options": ["An attack that tries all possible passwords to gain access", "A denial-of-service attack", "A method to encrypt data", "A method to back up files"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "Which cybersecurity framework is widely used for assessing cybersecurity maturity?",
+    "answer": "NIST Cybersecurity Framework",
+    "options": ["ISO 9001", "NIST Cybersecurity Framework", "PCI DSS", "COBIT"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "What does 'SQL Injection' attack exploit?",
+    "answer": "A vulnerability in database query processing",
+    "options": ["A flaw in network routers", "A weakness in encryption algorithms", "A vulnerability in database query processing", "A vulnerability in operating systems"]
+  },
+  {
+    "topic": "intermediate",
+    "question": "Which of the following best describes 'ransomware'?",
+    "answer": "Malware that encrypts data and demands payment for decryption",
+    "options": ["A type of phishing attack", "Malware that encrypts data and demands payment for decryption", "Software that monitors browsing activities", "A network intrusion detection tool"]
+  }
+]

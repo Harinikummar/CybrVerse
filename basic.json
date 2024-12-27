@@ -1,0 +1,63 @@
+[
+    {
+      "topic": "basic",
+      "question": "What is the full form of VPN?",
+      "answer": "Virtual Private Network",
+      "options": ["Virtual Public Network", "Virtual Private Network", "Variable Private Network", "Viral Private Network"]
+    },
+    {
+      "topic": "basic",
+      "question": "Which of the following is the most common type of cyber attack?",
+      "answer": "Phishing",
+      "options": ["Malware", "Phishing", "Man-in-the-middle", "SQL Injection"]
+    },
+    {
+      "topic": "basic",
+      "question": "What is the purpose of a firewall?",
+      "answer": "To block unauthorized access to a network",
+      "options": ["To monitor network traffic", "To block unauthorized access to a network", "To store network data", "To track browsing history"]
+    },
+    {
+      "topic": "basic",
+      "question": "What does the acronym 'HTTPS' stand for?",
+      "answer": "Hypertext Transfer Protocol Secure",
+      "options": ["Hypertext Transfer Protocol Secure", "High Traffic Protocol Secure", "Hyper Transfer Protocol Secure", "Hypertext Text Protocol Secure"]
+    },
+    {
+      "topic": "basic",
+      "question": "Which of the following is a strong password policy?",
+      "answer": "Using a combination of uppercase, lowercase, numbers, and symbols",
+      "options": ["Using only lowercase letters", "Using a combination of uppercase, lowercase, numbers, and symbols", "Using only numbers", "Using a single word from the dictionary"]
+    },
+    {
+      "topic": "basic",
+      "question": "What does 'phishing' refer to in cybersecurity?",
+      "answer": "The practice of tricking individuals into revealing sensitive information",
+      "options": ["The practice of stealing passwords", "The practice of tricking individuals into revealing sensitive information", "The practice of encrypting data", "The practice of hacking computers"]
+    },
+    {
+      "topic": "basic",
+      "question": "What is the most common type of malware?",
+      "answer": "Virus",
+      "options": ["Virus", "Trojan", "Worm", "Spyware"]
+    },
+    {
+      "topic": "basic",
+      "question": "Which of the following best describes two-factor authentication?",
+      "answer": "A security process that requires two forms of verification",
+      "options": ["A security process that requires one form of verification", "A security process that requires two forms of verification", "A process that monitors network traffic", "A password recovery process"]
+    },
+    {
+      "topic": "basic",
+      "question": "What does the term 'malware' refer to?",
+      "answer": "Malicious software designed to harm a computer system",
+      "options": ["Malicious software designed to harm a computer system", "Software used to protect against viruses", "Software designed to optimize computer performance", "A tool for monitoring computer usage"]
+    },
+    {
+      "topic": "basic",
+      "question": "Which of the following is a method to prevent a cyber attack?",
+      "answer": "Regular software updates",
+      "options": ["Downloading free software", "Using weak passwords", "Ignoring security updates", "Regular software updates"]
+    }
+  ]
+  

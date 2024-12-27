@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "advanced",
+    "question": "What does 'buffer overflow' refer to in cybersecurity?",
+    "answer": "An attack that exploits overflowed memory to execute malicious code",
+    "options": ["A type of phishing attack", "An attack that exploits overflowed memory to execute malicious code", "A method to secure applications", "A type of ransomware"]
+  },
+  {
+    "topic": "advanced",
+    "question": "Which cryptographic technique uses a pair of public and private keys?",
+    "answer": "Asymmetric encryption",
+    "options": ["Symmetric encryption", "Asymmetric encryption", "Hashing", "Tokenization"]
+  },
+  {
+    "topic": "advanced",
+    "question": "In which scenario would a 'cross-site scripting' (XSS) vulnerability be exploited?",
+    "answer": "When attackers inject malicious scripts into a trusted website",
+    "options": ["When attackers inject malicious scripts into a trusted website", "When attackers gain physical access to a device", "When unauthorized access is gained through a brute force attack", "When network connections are monitored for traffic analysis"]
+  },
+  {
+    "topic": "advanced",
+    "question": "What is the role of a 'Security Information and Event Management' (SIEM) system?",
+    "answer": "To aggregate and analyze security logs and alerts",
+    "options": ["To encrypt sensitive data", "To detect and analyze potential security incidents", "To aggregate and analyze security logs and alerts", "To manage network connections"]
+  },
+  {
+    "topic": "advanced",
+    "question": "Which of the following best describes the purpose of the MITRE ATT&CK framework?",
+    "answer": "A knowledge base of adversary tactics and techniques for threat modeling",
+    "options": ["A database for malware classification", "A network protocol for secure communication", "A knowledge base of adversary tactics and techniques for threat modeling", "A regulatory standard for data privacy"]
+  },
+  {
+    "topic": "advanced",
+    "question": "What does 'Elliptic Curve Cryptography' (ECC) offer compared to traditional cryptographic methods?",
+    "answer": "Stronger security with smaller key sizes",
+    "options": ["Easier key management", "Stronger security with smaller key sizes", "Faster encryption speeds", "More compatible with legacy systems"]
+  },
+  {
+    "topic": "advanced",
+    "question": "What is 'Threat Hunting' in cybersecurity?",
+    "answer": "Proactively searching for cyber threats within a network",
+    "options": ["Proactively searching for cyber threats within a network", "Responding to detected threats", "Monitoring network performance", "Isolating compromised systems"]
+  },
+  {
+    "topic": "advanced",
+    "question": "What is 'Advanced Persistent Threat' (APT)?",
+    "answer": "A long-term targeted cyber attack, often conducted by well-funded groups",
+    "options": ["A quick attack targeting random individuals", "A malware program for data encryption", "A long-term targeted cyber attack, often conducted by well-funded groups", "An automated script for testing network security"]
+  },
+  {
+    "topic": "advanced",
+    "question": "Which tool is commonly used for reverse engineering malware?",
+    "answer": "IDA Pro",
+    "options": ["Wireshark", "Nmap", "Metasploit", "IDA Pro"]
+  },
+  {
+    "topic": "advanced",
+    "question": "Which protocol does a VPN most commonly use to provide secure, encrypted tunneling?",
+    "answer": "IPsec or SSL/TLS",
+    "options": ["FTP", "SSH", "IPsec or SSL/TLS", "SMTP"]
+  }
+]
