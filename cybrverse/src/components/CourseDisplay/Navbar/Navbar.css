@@ -1,0 +1,69 @@
+/* Navbar Styling */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6bb0fe; /* Dark background for contrast */
+  padding: 15px 20px;
+  color: #ecf0f1; /* Light text color */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Modern shadow */
+  font-family: 'Roboto', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;   
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #ecf0f1; /* White text */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 50px; /* Pill-shaped buttons */
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.nav-item a:hover {
+  background-color: #6bb0fe; /* Vibrant hover color */
+  color: #ffffff; /* Ensure text contrast on hover */
+  transform: translateY(-3px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+.active-link {
+  background-color: #6bb0fe; /* Highlight active link */
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(25, 198, 232, 0.2); /* Elevated shadow for active state */
+  transform: scale(1.05); /* Slight zoom for active link */
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .nav-container {
+    flex-wrap: wrap; /* Wrap items for smaller screens */
+    justify-content: space-around; /* Space out items */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .nav-item {
+    margin: 10px;
+  }
+
+  .nav-item a {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Smaller padding */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-item a {
+    font-size: 0.85rem; /* Further reduce font size for tiny screens */
+    padding: 6px 12px; /* Reduce padding for compact layout */
+  }
+}

@@ -1,0 +1,310 @@
+/* General styling for the quiz container */
+
+.quiz-page {
+    background-color: #6bb0fe;  /* Change this to the desired color */
+    height: 100vh;            /* Ensure it takes full viewport height */
+    display: flex;
+    justify-content: center;  /* Optionally center content horizontally */
+    align-items: center;      /* Optionally center content vertically */
+  }
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1000px; /* Fixed width */
+    max-width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px auto;
+    position: relative;
+  }
+  
+  /* Styling for question header */
+  .quiz-question h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for quiz options */
+  .quiz-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Styling for correct and incorrect options */
+.option-button.correct {
+    background-color: #4CAF50; /* Green for correct */
+    color: white;
+    border-color: #4CAF50;
+  }
+  
+  .option-button.incorrect {
+    background-color: #f44336; /* Red for incorrect */
+    color: white;
+    border-color: #f44336;
+  }
+
+  .correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Option default styles */
+  .option-button {
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 600px;
+    transition: all 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #e0e0e0;
+    border-color: #aaa;
+  }  
+  
+  .score-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color for success */
+    margin-bottom: 20px;
+  }
+  
+  .score-details {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .congratulations {
+    color: #4CAF50; /* Green for success */
+  }
+  
+  .success-message {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .score-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 90px;
+    text-align: center; /* Ensures text is centered */
+    display: inline-block; /* To maintain button's width */
+  }
+  
+  
+  .download-button:hover {
+    background-color: #6bb0fe;
+  }
+  
+  .retry {
+    color: #f44336; /* Red for failure */
+  }
+  
+  .failure-message {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .retry-button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 260px;
+    margin-top: 10px;
+   
+  }
+  
+  .retry-button:hover {
+    background-color: #e65100;
+  }
+  
+  /* Styling for loading and error messages */
+  .loading, .error {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .quiz-container {
+      width: 90%;
+      margin: 50px auto;
+    }
+  
+    .quiz-question h3 {
+      font-size: 20px;
+    }
+  
+    .option-button {
+      font-size: 16px;
+      padding: 12px;
+      width: 90%;
+    }
+  }
+  
+  /* style.css */
+.certificate-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #4a90e2;
+  height: 100vh; /* Full viewport height */
+}
+
+.course-details-container {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  width: 100%;
+}
+
+.course-details {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.course-details h2 {
+  font-size: 1.5rem;
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.course-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-details li {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #357ab7;
+}
+
+.certificate-preview {
+  flex: 1;
+  background: #f9f9f9;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-header {
+  position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+
+.certificate-logo {
+  width: 100px;
+  height: 50px;
+margin-bottom: 10px;
+}
+
+
+
+.certificate-preview h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #333;
+}
+
+.certificate-preview h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a90e2;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.certificate-preview h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.certificate-preview p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.certificate-preview .date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 20px;
+}
+
+.certificate-preview .signature {
+  font-size: 1rem;
+  text-align: right;
+  color: #555;
+  margin-top: 30px;
+}

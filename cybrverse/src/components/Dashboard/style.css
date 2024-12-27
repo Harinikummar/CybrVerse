@@ -1,0 +1,140 @@
+/* src/dashboard.css */
+
+.dashboard-container {
+   
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px; /* Padding for content spacing */
+    background: #ffffff; /* White background for the dashboard */
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove shadow */
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport */
+}
+
+.dashboard-title {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    width: 100%; /* Full width to match container */
+    max-width: 800px; /* Limit maximum width */
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 3px solid #6bb0fe;
+}
+
+.progress-section {
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit maximum width */
+    margin-bottom: 30px;
+}
+
+.progress-item {
+    cursor: pointer;
+    margin-bottom: 15px;
+    background: #e0f7fa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.progress-item:hover {
+    background: #b2ebf2;
+}
+
+.progress-title {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 20px;
+    background: #2a8fce;
+    border-radius: 5px;
+}
+
+.reports-section {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-item {
+    margin-bottom: 15px;
+}
+
+.circular-progress {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+/* src/components/SkillProgress.css */
+
+.skill-progress-container {
+    width: 100%;
+    max-width: 800px; /* Limit max width */
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+
+.skill-label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.progress-bar {
+    position: relative;
+    background: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar-fill {
+    background: linear-gradient(90deg, #1f8bb0, #0855b4);
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}

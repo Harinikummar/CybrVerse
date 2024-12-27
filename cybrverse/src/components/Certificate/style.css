@@ -1,0 +1,127 @@
+/* style.css */
+.certificate-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .course-details-container {
+    display: flex;
+    gap: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .course-details {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .course-details h2 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  .course-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-details li {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #357ab7;
+  }
+  
+  .certificate-preview {
+    flex: 1;
+    background: #f9f9f9;
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certificate-header {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  }
+  
+  .certificate-logo {
+    width: 100px;
+    height: 50px;
+  margin-bottom: 10px;
+  }
+  
+  
+  
+  .certificate-preview h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+  }
+  
+  .certificate-preview h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a90e2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 0;
+  }
+  
+  .certificate-preview h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .certificate-preview p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .certificate-preview .date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  .certificate-preview .signature {
+    font-size: 1rem;
+    text-align: right;
+    color: #555;
+    margin-top: 30px;
+  }
+  
